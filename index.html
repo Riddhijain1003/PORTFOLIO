@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Riddhi Jain — CS (AI) Engineer &amp; Interface Designer</title>
+<meta name="description" content="Riddhi Jain — Computer Science (AI) undergraduate building computer-vision systems, real-time apps, and the interfaces around them." />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,450;0,9..144,560;0,9..144,650;1,9..144,450&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<div class="grain" aria-hidden="true"></div>
+
+<a class="skip-link" href="#work">Skip to work</a>
+
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a href="#top" class="mark">RJ<span class="mark-dot">.</span></a>
+    <nav class="site-nav" aria-label="Primary">
+      <a href="#work">Work</a>
+      <a href="#design">Design</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a class="resume-btn" href="Riddhi_Jain_Resume.pdf" download>Résumé</a>
+    <button class="nav-toggle" aria-expanded="false" aria-controls="mobile-nav" aria-label="Open menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+  <nav id="mobile-nav" class="mobile-nav" aria-label="Mobile">
+    <a href="#work">Work</a>
+    <a href="#design">Design</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+    <a href="Riddhi_Jain_Resume.pdf" download>Download résumé</a>
+  </nav>
+</header>
+
+<main id="top">
+
+  <!-- HERO -->
+  <section class="hero wrap">
+    <div class="hero-copy">
+      <p class="kicker">Computer Science (AI) — ABES Institute of Technology</p>
+      <h1 class="hero-title">Software that watches,<br>listens, and explains itself.</h1>
+      <p class="hero-sub">I'm Riddhi — a final-year CS (AI) student who builds computer-vision pipelines, real-time apps, and the interfaces around them. 150+ DSA problems solved, three shipped projects, one growing habit of designing what I code.</p>
+      <div class="hero-cta">
+        <a href="#work" class="btn btn-primary">See the work</a>
+        <a href="Riddhi_Jain_Resume.pdf" download class="btn btn-ghost">Download résumé</a>
+      </div>
+      <ul class="hero-contact">
+        <li><a href="mailto:riddhijainn.103@gmail.com">riddhijainn.103@gmail.com</a></li>
+        <li><a href="https://github.com/Riddhijain1003" target="_blank" rel="noopener">GitHub</a></li>
+        <li><a href="https://linkedin.com/in/riddhi-jain-11457429a" target="_blank" rel="noopener">LinkedIn</a></li>
+      </ul>
+    </div>
+
+    <div class="hero-visual" aria-hidden="true">
+      <div class="console" id="console">
+        <div class="console-top">
+          <span class="console-tag">SYS_PULSE · RJ.PORTFOLIO</span>
+          <span class="console-live"><i></i>LIVE</span>
+        </div>
+
+        <div class="console-radar">
+          <svg viewBox="0 0 220 220" class="radar-svg">
+            <circle cx="110" cy="110" r="98" class="radar-ring"></circle>
+            <circle cx="110" cy="110" r="68" class="radar-ring"></circle>
+            <circle cx="110" cy="110" r="38" class="radar-ring"></circle>
+            <line x1="110" y1="12" x2="110" y2="208" class="radar-crosshair"></line>
+            <line x1="12" y1="110" x2="208" y2="110" class="radar-crosshair"></line>
+            <g class="radar-sweep-group">
+              <path d="M110 110 L110 12 A98 98 0 0 1 184 46 Z" class="radar-sweep"></path>
+            </g>
+            <circle cx="152" cy="64" r="4" class="radar-blip node-vision"></circle>
+            <circle cx="64" cy="146" r="4" class="radar-blip node-interface"></circle>
+            <circle cx="158" cy="158" r="4" class="radar-blip node-logic"></circle>
+          </svg>
+          <div class="radar-center">
+            <span class="radar-center-num">03</span>
+            <span class="radar-center-label">SYSTEMS</span>
+          </div>
+        </div>
+
+        <div class="console-meters">
+          <div class="meter-row">
+            <span class="meter-label">VISION</span>
+            <div class="meter-track"><span class="meter-fill fill-1"></span></div>
+            <span class="meter-val">0.97</span>
+          </div>
+          <div class="meter-row">
+            <span class="meter-label">INTERFACE</span>
+            <div class="meter-track"><span class="meter-fill fill-2"></span></div>
+            <span class="meter-val">0.91</span>
+          </div>
+          <div class="meter-row">
+            <span class="meter-label">LOGIC</span>
+            <div class="meter-track"><span class="meter-fill fill-3"></span></div>
+            <span class="meter-val">0.88</span>
+          </div>
+        </div>
+
+        <div class="console-bottom">
+          <span>3 SYSTEMS TRACKED</span>
+          <span>M1 · 41ms</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT / SKILLS LEDGER -->
+  <section id="about" class="about wrap">
+    <div class="section-head">
+      <h2>About</h2>
+    </div>
+    <div class="about-grid">
+      <p class="about-bio">
+        I started in UI/UX — four months as a design intern at IndiBus, translating wireframes into working interfaces. Second year pulled me toward the web; third year, an NVIDIA GenAI program pulled me toward AI. What stuck is the overlap: I like building systems that sense the world (a camera feed, a voice, a query) and then explaining what they found in plain language. Currently prepping for placements, and building toward internship-ready product work.
+      </p>
+      <dl class="ledger">
+        <div class="ledger-row">
+          <dt>Languages</dt>
+          <dd>C · C++ · Python · JavaScript</dd>
+        </div>
+        <div class="ledger-row">
+          <dt>Web</dt>
+          <dd>HTML5 · CSS3 · REST APIs</dd>
+        </div>
+        <div class="ledger-row">
+          <dt>AI / ML</dt>
+          <dd>YOLOv8 · DeepSORT</dd>
+        </div>
+        <div class="ledger-row">
+          <dt>Databases</dt>
+          <dd>SQL · MySQL</dd>
+        </div>
+        <div class="ledger-row">
+          <dt>Core CS</dt>
+          <dd>DSA · OOP · DBMS · OS · Computer Networks</dd>
+        </div>
+        <div class="ledger-row">
+          <dt>Tools</dt>
+          <dd>Git · GitHub · VS Code · Figma</dd>
+        </div>
+      </dl>
+    </div>
+  </section>
+
+  <!-- FEATURED WORK -->
+  <section id="work" class="work wrap">
+    <div class="section-head">
+      <h2>Featured work</h2>
+      <p>Two projects I can defend line by line in an interview.</p>
+    </div>
+
+    <article class="project project-a">
+      <div class="project-copy">
+        <p class="project-eyebrow">01 — Computer vision · edge AI</p>
+        <h3>Prahari — The Watchman</h3>
+        <p class="project-tags">YOLOv8 · DeepSORT · Flask · SQLite · Groq API · Apple MPS</p>
+        <p class="project-desc">An edge-optimized surveillance pipeline built to run entirely on 8GB of RAM. YOLOv8n detects and DeepSORT tracks every person and object on my Mac's own GPU; SQLite logs what it sees; and a Groq-powered LLM bridge lets me ask the log plain questions — "did anyone leave a bag unattended?" — instead of scrubbing through footage myself.</p>
+        <ul class="project-points">
+          <li>Hybrid edge-cloud architecture designed around 8GB RAM hardware constraints</li>
+          <li>Persistent multi-object tracking with IDs held across frames</li>
+          <li>Loitering and unattended-object anomaly detection, spatial + temporal</li>
+          <li>Duplicate-write guard keeps the event log clean under continuous tracking</li>
+        </ul>
+        <a class="project-link" href="https://github.com/Riddhijain1003/Prahari-The-Watchman.-Eyes-that-never-blink." target="_blank" rel="noopener">View on GitHub →</a>
+      </div>
+      <div class="project-visual">
+        <div class="mock mock-prahari">
+          <div class="mock-topbar"><span>● Prahari</span><span>Launch Interface</span></div>
+          <div class="mock-frame">
+            <span class="mock-corner tl"></span><span class="mock-corner br"></span>
+            <div class="mock-box b1"><em>PERSON · 0.94</em></div>
+            <div class="mock-box b2 alert"><em>UNATTENDED · 0.71</em></div>
+            <div class="mock-box b3"><em>VEHICLE · 0.88</em></div>
+          </div>
+          <div class="mock-statusbar"><span>TRACKING 3 ENTITIES</span><span>DB CONNECTED</span></div>
+        </div>
+      </div>
+    </article>
+
+    <article class="project project-b">
+      <div class="project-visual">
+        <div class="mock mock-recall">
+          <div class="mock-topbar light"><span>R</span><span>Dashboard · Login</span></div>
+          <div class="mock-recall-body">
+            <p class="mock-recall-kicker">LIVE TRANSCRIPTION, ON BY DEFAULT</p>
+            <h4>Meetings that <em>listen</em> back.</h4>
+            <div class="mock-btn">Start a meeting now</div>
+            <div class="mock-transcript">
+              <span>LIVE TRANSCRIPT</span>
+              <p>You: <i></i></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="project-copy">
+        <p class="project-eyebrow">02 — Real-time systems · WebRTC</p>
+        <h3>Recall — AI Meeting Intelligence</h3>
+        <p class="project-tags">WebRTC · Socket.io · Node.js · Firebase · Web Speech API</p>
+        <p class="project-desc">A peer-to-peer video calling app where the server only ever brokers a handshake. Once two browsers agree on a path, video and audio flow directly between them — the backend just relays SDP offers and ICE candidates. On top, live speech-to-text turns every call into a searchable transcript, with a summary waiting the moment the meeting ends.</p>
+        <ul class="project-points">
+          <li>Signaling-only backend: media never touches the server</li>
+          <li>Live transcription via the Web Speech API, extractive auto-summaries</li>
+          <li>Firebase Authentication with a full meeting-history dashboard</li>
+          <li>Best supported in Chrome — documented, not hidden</li>
+        </ul>
+        <a class="project-link" href="https://github.com/Riddhijain1003" target="_blank" rel="noopener">View on GitHub →</a>
+      </div>
+    </article>
+
+    <div class="section-head other-head">
+      <h2>Other builds</h2>
+    </div>
+    <div class="other-grid">
+      <div class="other-card">
+        <p class="other-tag">CV · Tracking</p>
+        <h4>Smart People Counter</h4>
+        <p>Real-time YOLOv8 detection with DeepSORT tracking to count people moving through a video feed, logging every detection and track ID to CSV for downstream analysis.</p>
+        <span class="other-stack">YOLOv8 · DeepSORT · Python · OpenCV</span>
+      </div>
+      <div class="other-card">
+        <p class="other-tag">CV · Edge alerts</p>
+        <h4>Lane Violation &amp; Plate Recognition</h4>
+        <p>A Flask app that watches footage for vehicles crossing into the wrong lane, crops and OCRs the number plate with EasyOCR, and emails the violation frame the moment it happens.</p>
+        <span class="other-stack">YOLOv8 · EasyOCR · Flask · SMTP</span>
+      </div>
+      <div class="other-card">
+        <p class="other-tag">CV · Vision utility</p>
+        <h4>Face Detection App</h4>
+        <p>A dlib HOG-based face detector wrapped in two small OpenCV pipelines — one for still images, one that walks frame-by-frame through video and writes an annotated output.</p>
+        <span class="other-stack">Python · dlib · OpenCV</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- DESIGN WORK -->
+  <section id="design" class="design wrap">
+    <div class="section-head">
+      <h2>Design work</h2>
+      <p>Before I wrote much code, I designed interfaces — four months as a UI/UX intern at IndiBus, and a habit that stuck.</p>
+    </div>
+
+    <div class="design-grid">
+      <div class="design-card dark">
+        <div class="design-thumb thumb-prahari">
+          <span class="thumb-corner tl"></span><span class="thumb-corner br"></span>
+          <span class="thumb-dot"></span>
+        </div>
+        <h5>Prahari dashboard</h5>
+        <p>Dark, terminal-adjacent UI for a surveillance system — built to feel like an operator's console, not a landing page.</p>
+      </div>
+      <div class="design-card warm">
+        <div class="design-thumb thumb-recall">
+          <span class="thumb-corner tl"></span><span class="thumb-corner br"></span>
+        </div>
+        <h5>Recall auth &amp; meeting flow</h5>
+        <p>A warm, editorial take on a video-calling app — cream and oxblood instead of the usual blue-on-white SaaS palette.</p>
+      </div>
+      <div class="design-card teal">
+        <div class="design-thumb thumb-travel">
+          <span class="thumb-corner tl"></span><span class="thumb-corner br"></span>
+        </div>
+        <h5>Travel platform redesign</h5>
+        <p>An exploration in wayfinding and destination discovery for a tourism site — map-first browsing over card grids.</p>
+      </div>
+    </div>
+
+    <div class="design-links">
+      <a href="https://www.figma.com/@riddhijain2" target="_blank" rel="noopener" class="btn btn-ghost">View full work on Figma →</a>
+      <a href="https://dribbble.com/riddhayy_10" target="_blank" rel="noopener" class="btn btn-ghost">View full work on Dribbble →</a>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE + EDUCATION -->
+  <section class="track-record wrap">
+    <div class="tr-col">
+      <div class="section-head"><h2>Experience</h2></div>
+      <div class="tr-item">
+        <div class="tr-item-head">
+          <h4>UI/UX Design Intern</h4>
+          <span>May 2024 – Sept 2024</span>
+        </div>
+        <p class="tr-org">IndiBus Pvt. Ltd.</p>
+        <ul>
+          <li>Translated wireframes and UI designs into functional web interfaces with developers</li>
+          <li>Ran user research and usability testing to improve application workflows</li>
+          <li>Designed responsive wireframes and prototypes across web and mobile</li>
+        </ul>
+      </div>
+    </div>
+    <div class="tr-col">
+      <div class="section-head"><h2>Education</h2></div>
+      <div class="tr-item">
+        <div class="tr-item-head">
+          <h4>B.Tech, Computer Science (AI)</h4>
+          <span>CGPA 7.7/10</span>
+        </div>
+        <p class="tr-org">ABES Institute of Technology</p>
+        <p class="tr-note">Data Structures, Algorithms, DBMS, Operating Systems, Computer Networks, OOP</p>
+      </div>
+      <div class="tr-item">
+        <div class="tr-item-head">
+          <h4>Class XII / X, CBSE</h4>
+          <span>83% / 94%</span>
+        </div>
+        <p class="tr-org">Sai Millennium Sr. Sec. School</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="contact wrap">
+    <div class="contact-inner">
+      <p class="kicker">Get in touch</p>
+      <h2>Open to internships and<br>full-time software roles.</h2>
+      <div class="contact-row">
+        <a href="mailto:riddhijainn.103@gmail.com" class="btn btn-primary">riddhijainn.103@gmail.com</a>
+      </div>
+      <ul class="contact-links">
+        <li><a href="https://github.com/Riddhijain1003" target="_blank" rel="noopener">GitHub</a></li>
+        <li><a href="https://linkedin.com/in/riddhi-jain-11457429a" target="_blank" rel="noopener">LinkedIn</a></li>
+        <li><a href="https://www.figma.com/@riddhijain2" target="_blank" rel="noopener">Figma</a></li>
+        <li><a href="https://dribbble.com/riddhayy_10" target="_blank" rel="noopener">Dribbble</a></li>
+      </ul>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap footer-inner">
+    <span>Riddhi Jain © 2026</span>
+    <span>Built by hand in HTML, CSS &amp; JS.</span>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
